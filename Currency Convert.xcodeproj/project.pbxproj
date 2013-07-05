@@ -355,7 +355,6 @@
 		8BA9F89E16F99A84003AE3CE /* CCWikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F89D16F99A83003AE3CE /* CCWikipediaViewController.m */; };
 		8BA9F8A516F9B813003AE3CE /* CCCurrencyConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F8A416F9B813003AE3CE /* CCCurrencyConversion.m */; };
 		8BA9F8A816FA388E003AE3CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA9F8A616FA3874003AE3CE /* QuartzCore.framework */; };
-		8BB6F129178404FB0061D610 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB6F128178404FB0061D610 /* Reveal.framework */; };
 		8BB6F12D178405530061D610 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB6F12C178405530061D610 /* CFNetwork.framework */; };
 		8BD6EE4B17038B6F0030B553 /* UIButtonBarRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6EE4917038B6F0030B553 /* UIButtonBarRefresh.png */; };
 		8BD6EE4C17038B6F0030B553 /* UIButtonBarRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6EE4A17038B6F0030B553 /* UIButtonBarRefresh@2x.png */; };
@@ -722,7 +721,6 @@
 		8BA9F8A316F9B812003AE3CE /* CCCurrencyConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCurrencyConversion.h; sourceTree = "<group>"; };
 		8BA9F8A416F9B813003AE3CE /* CCCurrencyConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCurrencyConversion.m; sourceTree = "<group>"; };
 		8BA9F8A616FA3874003AE3CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8BB6F128178404FB0061D610 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		8BB6F12C178405530061D610 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8BD6EE4917038B6F0030B553 /* UIButtonBarRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarRefresh.png; sourceTree = "<group>"; };
 		8BD6EE4A17038B6F0030B553 /* UIButtonBarRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarRefresh@2x.png"; sourceTree = "<group>"; };
@@ -739,7 +737,6 @@
 				8B1F8A1F16EEA067006E40DA /* UIKit.framework in Frameworks */,
 				8B1F8A2116EEA067006E40DA /* Foundation.framework in Frameworks */,
 				8B1F8A2316EEA067006E40DA /* CoreGraphics.framework in Frameworks */,
-				8BB6F129178404FB0061D610 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +747,6 @@
 			isa = PBXGroup;
 			children = (
 				8BB6F12C178405530061D610 /* CFNetwork.framework */,
-				8BB6F128178404FB0061D610 /* Reveal.framework */,
 				8B1F8A2416EEA067006E40DA /* Currency Convert */,
 				8B1F8A1D16EEA067006E40DA /* Frameworks */,
 				8B1F8A1B16EEA067006E40DA /* Products */,
@@ -1656,7 +1652,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
